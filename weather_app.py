@@ -48,6 +48,20 @@ st.markdown(
 # App title
 st.markdown("<h1 style='text-align: center;'>☁️ Weather App ⚡</h1>", unsafe_allow_html=True)
 
+st.sidebar.markdown(
+    "<h2 style='color: black;'>ℹ️ About</h2>", 
+    unsafe_allow_html=True
+)
+
+st.sidebar.markdown(
+    """
+    <div style='color: black;'>
+    This is a simple weather app that fetches current weather data for any city using the OpenWeather API.<br>
+    You can enter the name of a city to get the current weather conditions, including temperature, humidity, pressure, and wind speed.
+    </div>
+    """,
+    unsafe_allow_html=True
+)
 # Input
 city = st.text_input("📍 Enter city name", placeholder="e.g., Paris")
 

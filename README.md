@@ -26,23 +26,23 @@ Try app [HERE](http://localhost:8501/)
 
 ### Installation
 
-1. Click on the **Fork** button to fork this repository
-2. Clone this repository:
+### 1. Click on the **Fork** button to fork this repository
+### 2. Clone this repository:
 
 ```bash
 git clone https://github.com/your-username/streamlit-weather-app.git
 cd streamlit-weather-app
 ```
-3. Create a `.env` file in the root directory and add your API key:
+### 3. Create a `.env` file in the root directory and add your API key:
 
-```env
-OPENWEATHER_API_KEY=your_api_key_here
-```
+  ```env
+  OPENWEATHER_API_KEY=your_api_key_here
+  ```
 
-4. Run the app:
+### 4. Run the app:
 
-```bash
-streamlit run app.py
+ ```bash
+  streamlit run weather_app.py
 ```
 
 ---
